@@ -25,28 +25,28 @@ class ContactFragment : Fragment(R.layout.fragment_contact){
 
     private fun onPhoneClicked(){
         val intent = Intent(Intent.ACTION_DIAL)
-        intent.data = Uri.parse("tel:3145839972")
+        intent.data = Uri.parse("tel:6419191514")
         startActivity(intent)
     }
 
     private fun onEmailClicked(){
         val intent = Intent(Intent.ACTION_SENDTO)
         intent.data = Uri.parse("mailto:")
-        intent.putExtra(Intent.EXTRA_EMAIL, "ktekeste@miu.edu")
+        intent.putExtra(Intent.EXTRA_EMAIL, "dibrahim@miu.edu")
         intent.putExtra(Intent.EXTRA_SUBJECT, "Forgot Password from MDP Course")
         intent.putExtra(Intent.EXTRA_TEXT, "Could you please contact me for more information.");
         startActivity(intent)
     }
 
     private fun onLinkedInClicked(){
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/kidus-tekeste/"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/dmibrahim/"))
         startActivity(intent)
     }
 
 
 
     private fun onGithubClicked(){
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/KidusMT"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/dmibrahim"))
         startActivity(intent)
     }
 }
