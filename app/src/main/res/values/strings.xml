@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">CVBuilder</string>
+    <string name="dmi">Dennis Ibrahim</string>
+    <string name="fullstack">Full stack Developer</string>
+    <string name="projects"><b>TechBrain</b>:Casual works android app.\n<b>Votes App</b>:Voting Android and web app \n<b>Eat Now</b>:Android app for ordering food online.</string>
+    <string name="intro">Talented Software Engineer with 10 years of professional experience leading complex projects through all phases of software development life cycle while meeting strict deadlines. Demonstrated expertise in streamlining and enhancing development processes by researching and implementing best methodologies. Skilled in using technologies such as Java, C#, Node.js, JavaScript, CSS, and Hibernate.</string>
+    <string name="work_experience">
+         <b>Computer Analyst Programmer</b>\n
+        <b>Bank of Tanzania: 2010-2020</b>\n
+
+•Analyzed and documented business requirements.\n
+•Built and implemented user interfaces and database objects.\n\n\<b>Senior .NET Developer</b>\n
+        <b>Vizient Inc: 2021- </b>\n
+•Analyzed and suggested best practices for software development\n
+•Participated in the development of a Data analytic web application using Angular 12\n
+•Wrote Unit and Integration tests in the web application using Karma, Jasmine and Cypress testing utilities.\n
+
+    </string>
+    <string name="career_note_label">About Me</string>
+    <string name="about_me_label">About Me</string>
+    <string name="about_me">Talented Software Engineer with 10 years of professional experience leading complex projects through all phases of software development life cycle while meeting strict deadlines. Demonstrated expertise in streamlining and enhancing development processes by researching and implementing best methodologies. Skilled in using technologies such as Java, C#, Node.js, JavaScript, CSS, and Hibernate.</string>
+    <string name="university">Universities</string>
+    <string name="education">Education</string>
+    <string name="_11_8_2020">11/8/2020</string>
+    <string name="certifications">Certifications</string>
+    <string name="ifm">Institute of Finance Management</string>
+    <string name="bachelor">Bachelor in Computing Technology</string>
+    <string name="master_of_science_in_computer_science">Master of Science in Computer Science</string>
+    <string name="maharishi_international_university">Maharishi International University</string>
+    <string name="oracle">Oracle SE, Certified Professional Developer</string>
+    <string name="_2_5_2019">2/5/2019</string>
+    <string name="github_name">GitHub</string>
+    <string name="github">dmibrahim</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="linked_in">www.linkedin/in/dmibrahim</string>
+    <string name="email">Email</string>
+    <string name="scul_email">dibrahim@miu.com</string>
+    <string name="phone">Phone</string>
+    <string name="phone_number">6419191514</string>
+    <string name="contact_info">Contacts Information</string>
+    <string name="voluntary_work">Voluntary Work</string>
+    <string name="peace_corps">Peace Corps</string>
+    <string name="educating_young_students_in_bekoji">Educating Young Students in Bekoji</string>
+    <string name="_2020">2020</string>
+    <string name="addis_ababa_university">Addis Ababa University</string>
+    <string name="educating_students_as_ta">Educating Students as TA</string>
+    <string name="work_experience_label">Work Experience</string>
+    <string name="meta_facebook_inc">Meta - Facebook Inc.</string>
+    <string name="com_analyst">Computer Analyst Programmer</string>
+    <string name="_2020_present">2020 - Present</string>
+    <string name="google">Google</string>
+    <string name="application_developer_for_youtube">Application Developer for Youtube</string>
+    <string name="_2018_2020">2018 - 2020</string>
+    <string name="amazon">Amazon</string>
+    <string name="sde_ii">SDE II</string>
+    <string name="_2016_2018">2016 - 2018</string>
+    <string name="kforce">Kforce</string>
+    <string name="sr_full_stack_engineer">Sr Full Stack Engineer</string>
+    <string name="_2014_2016">2014 - 2016</string>
+    <string name="projects_label">Projects</string>
+    <string name="microsoft_devops_engineer">Microsoft DevOps Engineer</string>
+    <string name="_2018">2018</string>
+    <string name="linux_essentials">Linux Essentials</string>
+    <string name="_2019">2019</string>
+    <string name="red_hat_system_administrator">Red Hat System Administrator</string>
+    <string name="_2017_2020">2017-2020</string>
+    <string name="mobile_application_engineer">Mobile Application Engineer</string>
+    <string name="icog_labs">Icog-Labs</string>
+    <string name="machine_learning_intern">Machine Learning Intern</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="saved_theme">theme</string>
+</resources>
