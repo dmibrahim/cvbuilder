@@ -1,16 +1,18 @@
 package com.dmi.cvbuilder.ui.activity
 
 import android.content.Intent
-import android.net.Uri
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.dmi.cvbuilder.domain.User
+import com.dmi.cvbuilder.utils.AppUtils
 import cvbuilder.R
 import kotlinx.android.synthetic.main.activity_login.*
 
 
 class LoginActivity : AppCompatActivity() {
+    private lateinit var sharedPref: SharedPreferences
     var userList= arrayListOf<User>(
          User("Dennis","Ibrahim","dibrahim@miu.edu","password"),
          User("Melon","Tadesse","mtadesse@miu.edu","password"),
@@ -21,6 +23,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        sharedPref = AppUtils.setPref(this)
         val intent = getIntent()
         val user = intent.getSerializableExtra("user") as? User
         if(user !=null)
@@ -46,6 +49,7 @@ class LoginActivity : AppCompatActivity() {
      if(user !=null){
      val intent = Intent(this, MainActivity::class.java)
          intent.putExtra("username",user.getUserName())
+         sharedPref.edit().putString("loggedInUser",user.getUserName()).apply()
        startActivity(intent)
      }
      else{

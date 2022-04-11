@@ -6,6 +6,7 @@ package com.dmi.cvbuilder.ui.activity
 
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.dmi.cvbuilder.utils.AppUtils
 import com.google.android.material.tabs.TabLayout
@@ -16,12 +17,12 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var sharedPref: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        sharedPref = AppUtils.setPref(this)
+        var loggedUser = AppUtils.getPref("loggedInUser")
+        Toast.makeText(this,"Welcome $loggedUser",Toast.LENGTH_LONG).show()
 //        val theme = sharedPref.getString(getString(R.string.saved_theme), "")
 //        if(theme!=null) decideTheme(theme)
 
